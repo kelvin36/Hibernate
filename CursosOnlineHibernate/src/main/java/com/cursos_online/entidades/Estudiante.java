@@ -13,6 +13,7 @@ public class Estudiante {
 	private String nombre;
 	private String apellido;
 	
+	public Estudiante() {}
 	
 	public Estudiante(String nombre, String apellido) {
 		super();
@@ -21,7 +22,7 @@ public class Estudiante {
 	
 	}
 	
-	public Estudiante() {}
+	
 	
 	public int getId() {
 		return id;
@@ -40,6 +41,11 @@ public class Estudiante {
 	}
 	public void setApellido(String apellido) {
 		this.apellido = apellido;
+	}
+
+	@Override
+	public String toString() {
+		return "Estudiante [id=" + id + ", nombre=" + nombre + ", apellido=" + apellido + "]";
 	}
 	
 	
