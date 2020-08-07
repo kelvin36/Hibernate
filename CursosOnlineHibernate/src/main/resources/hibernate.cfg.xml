@@ -17,6 +17,8 @@
 
        <mapping class="com.cursos_online.entidades.Curso"/>
        <mapping class="com.cursos_online.entidades.Estudiante"/>
+       <mapping class="com.cursos_online.entidades.Telefono"/>
+       <mapping class="com.cursos_online.entidades.Email"/>
 
     </session-factory>
 </hibernate-configuration>
